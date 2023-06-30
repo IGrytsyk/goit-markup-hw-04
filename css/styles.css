@@ -137,7 +137,6 @@ section {
 .header-link:hover,
 .header-link:focus {
   color: var(--focus-color);
-  text-decoration: underline;
 }
 .header-contacts {
   font-style: normal;
@@ -176,13 +175,18 @@ section {
 .main {
 }
 .hero {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.70)), url(../images/main/hero/hero.img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--dark-bgr);
   text-align: center;
 }
 .hero-container{
-
 
 }
 .hero-title {
@@ -267,6 +271,16 @@ section {
   letter-spacing: 0.02em;
   color: var(--text-font-color);
 }
+.box-svg{
+ display: block;
+ padding: 24px 100px;
+ border-radius: 4px;
+ background-color: #F4F4FD;
+ margin-bottom: 8px;
+}
+.feature-icon{
+
+}
 .works {
  padding-bottom: 120px;
 
@@ -322,6 +336,17 @@ section {
   background-color: var(--white-bgr);
 }
 .team-icon {
+}
+.social-networks-list {
+  display: flex;
+}
+.social-networks-item {
+}
+.social-networks-container {
+display: block;
+bo
+}
+.social-networks-icon {
 }
 .team-text-content{
   padding: 32px 16px;
