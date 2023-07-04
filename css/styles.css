@@ -434,12 +434,6 @@ section {
   color: var(--text-dark-color);
   margin-bottom: 72px;
 }
-.customers-container {
-  display: block;
-  margin: 0 auto;
-  justify-content: center;
-  gap: var(--indent);
-}
 .customers-nav {
   display: flex;
   justify-content: center;
