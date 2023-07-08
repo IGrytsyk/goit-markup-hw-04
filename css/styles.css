@@ -223,7 +223,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   max-width: 1440px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-rgba(46, 47, 66, 0.7)), url(../images/main/hero.img.jpg);
+rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -521,11 +521,6 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.img.jpg);
   gap: var(--indent);
 }
 .portfolio-item-btn {
-  position: relative;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-btn {
   position: relative;
@@ -569,11 +564,13 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.img.jpg);
   overflow: hidden;
 }
 .portfolio-link {
+  position: relative;
   display: block;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus{
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
