@@ -219,8 +219,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .hero {
   max-width: 1440px;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/main/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -569,7 +572,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-} 
+}
 
 .portfolio-icon {
 }
@@ -596,16 +599,15 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
 }
 .portfolios-wrapper {
   position: relative;
-  overflow: hidden; 
-} 
-
-.portfolio-link:hover .overlay-text{
-  transform: translateY(0);
-}
-.portfolio-link:focus .overlay-text{
-  transform: translateY(0);
+  overflow: hidden;
 }
 
+.portfolio-link:hover .overlay-text {
+  transform: translateY(0);
+}
+.portfolio-link:focus .overlay-text {
+  transform: translateY(0);
+}
 
 /* Overlay text */
 
