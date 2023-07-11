@@ -599,7 +599,7 @@ rgba(46, 47, 66, 0.7)), url(../images/main/hero.jpg);
   overflow: hidden; 
 } 
 
-.portfolio-link:hover  .overlay-text{
+.portfolio-link:hover, .portfolio-link:focus  .overlay-text{
   transform: translateY(0);
 }
 
